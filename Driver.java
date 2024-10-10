@@ -1,4 +1,4 @@
-public class main {
+public class Driver {
     public static void main(String[] args) {
         // Create a new (empty) Linked List
         LinkedList list = new LinkedList();
