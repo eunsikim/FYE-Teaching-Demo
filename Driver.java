@@ -4,10 +4,10 @@ public class Driver {
         LinkedList list = new LinkedList();
 
         // Add data (integers) into the front of the linked list
-        list.addFront(3);
-        list.addFront(2);
-        list.addFront(1);
-        list.addEnd(0);
+        list.addFront(3); // LinkedList: 3
+        list.addFront(2); // LinkedList: 2 3
+        list.addFront(1); // LinkedList: 1 2 3
+        list.addEnd(0); // LinkedList: 1 2 3 0
 
         list.print(); // Outputs 1 2 3 0
 
